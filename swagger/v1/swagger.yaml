@@ -139,6 +139,129 @@ paths:
         '404':
           description: Product not found
           content: {}
+  "/v1/stores":
+    post:
+      summary: Create a store
+      tags:
+      - Stores
+      description: Create a new store
+      parameters: []
+      responses:
+        '200':
+          description: store created
+          content: {}
+        '422':
+          description: invalid request
+          content: {}
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+                address:
+                  type: string
+              required:
+              - name
+              - addresss
+  "/v1/stores/{id}":
+    put:
+      summary: Update a store
+      tags:
+      - Stores
+      description: Update a store
+      parameters:
+      - name: id
+        in: path
+        required: true
+        schema:
+          type: number
+      responses:
+        '200':
+          description: store updated
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                  name:
+                    type: string
+                  address:
+                    type: string
+                required:
+                - id
+                - name
+                - address
+        '404':
+          description: Store not found
+          content: {}
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+                address:
+                  type: string
+              required:
+              - name
+              - address
+    get:
+      summary: Retrieve a stores
+      tags:
+      - Stores
+      description: Retrieve a store
+      parameters:
+      - name: id
+        in: path
+        required: true
+        schema:
+          type: number
+      responses:
+        '200':
+          description: Store found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                  name:
+                    type: string
+                  address:
+                    type: string
+                required:
+                - id
+                - name
+                - address
+        '404':
+          description: Store not found
+          content: {}
+    delete:
+      summary: Delete a store
+      tags:
+      - Stores
+      description: Delete a store
+      parameters:
+      - name: id
+        in: path
+        required: true
+        schema:
+          type: number
+      responses:
+        '204':
+          description: store deleted
+          content: {}
+        '404':
+          description: Store not found
+          content: {}
 servers:
 - url: http://{defaultHost}
   variables:
