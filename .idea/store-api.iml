@@ -52,6 +52,7 @@
     <orderEntry type="library" scope="PROVIDED" name="factory_bot_rails (v5.2.0, RVM: ruby-2.6.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ffaker (v2.14.0, RVM: ruby-2.6.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ffi (v1.12.2, RVM: ruby-2.6.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="figaro (v1.2.0, RVM: ruby-2.6.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="globalid (v0.4.2, RVM: ruby-2.6.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="i18n (v1.8.2, RVM: ruby-2.6.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="json-schema (v2.8.1, RVM: ruby-2.6.0) [gem]" level="application" />
@@ -68,6 +69,7 @@
     <orderEntry type="library" scope="PROVIDED" name="nio4r (v2.5.2, RVM: ruby-2.6.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="nokogiri (v1.10.9, RVM: ruby-2.6.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="paranoia (v2.4.2, RVM: ruby-2.6.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="pg (v1.2.3, RVM: ruby-2.6.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="public_suffix (v4.0.5, RVM: ruby-2.6.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="puma (v4.3.5, RVM: ruby-2.6.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack (v2.2.2, RVM: ruby-2.6.0) [gem]" level="application" />

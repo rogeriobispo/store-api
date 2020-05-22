@@ -22,11 +22,15 @@ gem 'puma', '~> 4.1'
 gem "paranoia"
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
+# Simple, Heroku-friendly Rails app configuration using ENV and a single YAML file
+gem "figaro"
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 # gem 'rack-cors'
 # swagger generion docs
 gem 'rswag'
+# Use postgresql as the database for Active Record
+gem 'pg', '>= 0.18', '< 2.0'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]

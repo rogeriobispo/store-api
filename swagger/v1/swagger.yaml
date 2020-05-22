@@ -1,0 +1,146 @@
+---
+openapi: 3.0.1
+info:
+  title: API V1
+  version: v1
+paths:
+  "/v1/products":
+    post:
+      summary: Creates a Product
+      tags:
+      - Products
+      description: Create a new product
+      parameters: []
+      responses:
+        '200':
+          description: product created
+          content: {}
+        '422':
+          description: invalid request
+          content: {}
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+                manufactory:
+                  type: string
+                cost_price:
+                  type: number
+              required:
+              - name
+              - manufactory
+              - cost_price
+  "/v1/products/{id}":
+    put:
+      summary: Update a product
+      tags:
+      - Products
+      description: Update a product
+      parameters:
+      - name: id
+        in: path
+        required: true
+        schema:
+          type: number
+      responses:
+        '200':
+          description: product updated
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                  name:
+                    type: string
+                  manufactory:
+                    type: string
+                  cost_price:
+                    type: number
+                required:
+                - id
+                - name
+                - manufactory
+                - cost_price
+        '404':
+          description: Product not found
+          content: {}
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+                manufactory:
+                  type: string
+                cost_price:
+                  type: number
+              required:
+              - name
+              - manufactory
+              - cost_price
+    get:
+      summary: Retrieve a product
+      tags:
+      - Products
+      description: Retrieve a product
+      parameters:
+      - name: id
+        in: path
+        required: true
+        schema:
+          type: number
+      responses:
+        '200':
+          description: product found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                  name:
+                    type: string
+                  manufactory:
+                    type: string
+                  cost_price:
+                    type: number
+                required:
+                - id
+                - name
+                - manufactory
+                - cost_price
+        '404':
+          description: Product not found
+          content: {}
+    delete:
+      summary: Delete a product
+      tags:
+      - Products
+      description: Delete a product
+      parameters:
+      - name: id
+        in: path
+        required: true
+        schema:
+          type: number
+      responses:
+        '204':
+          description: product deleted
+          content: {}
+        '404':
+          description: Product not found
+          content: {}
+servers:
+- url: http://{defaultHost}
+  variables:
+    defaultHost:
+      default: localhost:3000
