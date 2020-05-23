@@ -139,6 +139,100 @@ paths:
         '404':
           description: Product not found
           content: {}
+  "/v1/stock_items":
+    post:
+      summary: Create a product at a store
+      tags:
+      - StockItem
+      description: Add item at a store stock
+      parameters: []
+      responses:
+        '200':
+          description: Item add to store stock
+          content: {}
+        '422':
+          description: invalid request
+          content: {}
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                product_id:
+                  type: number
+                store_id:
+                  type: number
+                quantity:
+                  type: number
+              required:
+              - product_id
+              - store_id
+              - quantity
+    patch:
+      summary: Increase stock_item
+      tags:
+      - StockItem
+      description: Increases a existing item on stock
+      parameters: []
+      responses:
+        '200':
+          description: Increase stocke item
+          content: {}
+        '404':
+          description: invalid request
+          content: {}
+        '422':
+          description: invalid request
+          content: {}
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                product_id:
+                  type: number
+                store_id:
+                  type: number
+                quantity:
+                  type: number
+              required:
+              - product_id
+              - store_id
+              - quantity
+    delete:
+      summary: Decrease stock_item
+      tags:
+      - StockItem
+      description: Decrease a existing item on stock
+      parameters: []
+      responses:
+        '200':
+          description: decrease stock item
+          content: {}
+        '404':
+          description: invalid request
+          content: {}
+        '422':
+          description: invalid request
+          content: {}
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                product_id:
+                  type: number
+                store_id:
+                  type: number
+                quantity:
+                  type: number
+              required:
+              - product_id
+              - store_id
+              - quantity
   "/v1/stores":
     post:
       summary: Create a store
@@ -165,7 +259,7 @@ paths:
                   type: string
               required:
               - name
-              - addresss
+              - address
   "/v1/stores/{id}":
     put:
       summary: Update a store

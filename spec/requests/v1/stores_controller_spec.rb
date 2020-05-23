@@ -16,7 +16,7 @@ describe 'Store' do
               name: { type: :string },
               address: { type: :string }
           },
-          required: [ 'name', 'addresss']
+          required: [ 'name', 'address']
       }
 
 
