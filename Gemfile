@@ -33,7 +33,10 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   # teste framework alternative to minitests
-  gem 'rspec-rails', '~> 4.0.0'
+
+  %w[rspec-core rspec-expectations rspec-mocks rspec-rails rspec-support].each do |lib|
+    gem lib, git: "https://github.com/rspec/#{lib}.git", branch: 'master' # Previously '4-0-dev' or '4-0-maintenance' branch
+  end
   # is used to easily generate fake data: names, addresses, phone numbers, etc.
   gem 'ffaker'
   # is a fixtures replacement with a straightforward definition syntax,
