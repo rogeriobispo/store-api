@@ -30,9 +30,7 @@ class V1::StoresController < ApplicationController
                   :address)
   end
 
-
   def set_store
     @store = Store.find(params[:id])
   end
-
 end

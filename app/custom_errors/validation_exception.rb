@@ -1,1 +1,1 @@
-class ValidationException < Exception; end
+class ValidationException < RuntimeError; end

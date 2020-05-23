@@ -357,7 +357,7 @@ paths:
           description: Store not found
           content: {}
 servers:
-- url: http://{defaultHost}
+- url: https://roger-store-api.herokuapp.com
   variables:
     defaultHost:
       default: localhost:3000

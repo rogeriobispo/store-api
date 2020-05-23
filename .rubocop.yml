@@ -1,0 +1,31 @@
+AllCops:
+  Exclude:
+    - Gemfile
+    - 'db/**/*'
+    - 'bin/**/*'
+    - 'config/**/*'
+    - 'spec/rails_helper.rb'
+    - 'spec/spec_helper.rb'
+    -  'spec/**/*'
+    - 'Rakefile'
+    - 'node_modules/**/*'
+Style/FrozenStringLiteralComment:
+  Enabled: false
+Style/Documentation:
+  Enabled: false
+Metrics/BlockLength:
+  Enabled: true
+  Exclude:
+    - 'spec/**/*'
+Style/SymbolArray:
+  Enabled: false
+Style/SafeNavigation:
+  Enabled: false
+Style/RescueStandardError:
+  Enabled: false
+Style/GuardClause:
+  Enabled: false
+Style/ClassMethods:
+  Enabled: false
+Style/ClassAndModuleChildren:
+  Enabled: false

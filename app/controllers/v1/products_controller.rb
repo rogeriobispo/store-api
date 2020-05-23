@@ -31,7 +31,6 @@ class V1::ProductsController < ApplicationController
                   :cost_price)
   end
 
-
   def set_product
     @product = Product.find(params[:id])
   end
