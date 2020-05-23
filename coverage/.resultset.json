@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/home/rogerio/projetos/store-api/config/environment.rb": {
+      "/home/rogerio/projetos/store-api-send-to-heroku/config/environment.rb": {
         "lines": [
           null,
           1,
@@ -10,7 +10,7 @@
           1
         ]
       },
-      "/home/rogerio/projetos/store-api/config/application.rb": {
+      "/home/rogerio/projetos/store-api-send-to-heroku/config/application.rb": {
         "lines": [
           1,
           null,
@@ -55,7 +55,7 @@
           null
         ]
       },
-      "/home/rogerio/projetos/store-api/config/boot.rb": {
+      "/home/rogerio/projetos/store-api-send-to-heroku/config/boot.rb": {
         "lines": [
           1,
           null,
@@ -63,7 +63,7 @@
           1
         ]
       },
-      "/home/rogerio/projetos/store-api/app/command/stock_item_decrease_quantity.rb": {
+      "/home/rogerio/projetos/store-api-send-to-heroku/app/command/stock_item_decrease_quantity.rb": {
         "lines": [
           1,
           1,
@@ -79,7 +79,7 @@
           null
         ]
       },
-      "/home/rogerio/projetos/store-api/app/command/stock_item_increase_quantity.rb": {
+      "/home/rogerio/projetos/store-api-send-to-heroku/app/command/stock_item_increase_quantity.rb": {
         "lines": [
           1,
           1,
@@ -94,12 +94,12 @@
           null
         ]
       },
-      "/home/rogerio/projetos/store-api/app/custom_errors/validation_exception.rb": {
+      "/home/rogerio/projetos/store-api-send-to-heroku/app/custom_errors/validation_exception.rb": {
         "lines": [
           1
         ]
       },
-      "/home/rogerio/projetos/store-api/config/environments/test.rb": {
+      "/home/rogerio/projetos/store-api-send-to-heroku/config/environments/test.rb": {
         "lines": [
           null,
           null,
@@ -152,7 +152,7 @@
           null
         ]
       },
-      "/home/rogerio/projetos/store-api/config/initializers/application_controller_renderer.rb": {
+      "/home/rogerio/projetos/store-api-send-to-heroku/config/initializers/application_controller_renderer.rb": {
         "lines": [
           null,
           null,
@@ -164,7 +164,7 @@
           null
         ]
       },
-      "/home/rogerio/projetos/store-api/config/initializers/backtrace_silencers.rb": {
+      "/home/rogerio/projetos/store-api-send-to-heroku/config/initializers/backtrace_silencers.rb": {
         "lines": [
           null,
           null,
@@ -175,7 +175,7 @@
           null
         ]
       },
-      "/home/rogerio/projetos/store-api/config/initializers/cors.rb": {
+      "/home/rogerio/projetos/store-api-send-to-heroku/config/initializers/cors.rb": {
         "lines": [
           null,
           null,
@@ -195,7 +195,7 @@
           null
         ]
       },
-      "/home/rogerio/projetos/store-api/config/initializers/filter_parameter_logging.rb": {
+      "/home/rogerio/projetos/store-api-send-to-heroku/config/initializers/filter_parameter_logging.rb": {
         "lines": [
           null,
           null,
@@ -203,7 +203,7 @@
           1
         ]
       },
-      "/home/rogerio/projetos/store-api/config/initializers/inflections.rb": {
+      "/home/rogerio/projetos/store-api-send-to-heroku/config/initializers/inflections.rb": {
         "lines": [
           null,
           null,
@@ -223,7 +223,7 @@
           null
         ]
       },
-      "/home/rogerio/projetos/store-api/config/initializers/mime_types.rb": {
+      "/home/rogerio/projetos/store-api-send-to-heroku/config/initializers/mime_types.rb": {
         "lines": [
           null,
           null,
@@ -231,7 +231,7 @@
           null
         ]
       },
-      "/home/rogerio/projetos/store-api/config/initializers/rswag-ui.rb": {
+      "/home/rogerio/projetos/store-api-send-to-heroku/config/initializers/rswag-ui.rb": {
         "lines": [
           1,
           null,
@@ -249,7 +249,7 @@
           null
         ]
       },
-      "/home/rogerio/projetos/store-api/config/initializers/rswag_api.rb": {
+      "/home/rogerio/projetos/store-api-send-to-heroku/config/initializers/rswag_api.rb": {
         "lines": [
           1,
           null,
@@ -267,7 +267,7 @@
           null
         ]
       },
-      "/home/rogerio/projetos/store-api/config/initializers/wrap_parameters.rb": {
+      "/home/rogerio/projetos/store-api-send-to-heroku/config/initializers/wrap_parameters.rb": {
         "lines": [
           null,
           null,
@@ -285,7 +285,7 @@
           null
         ]
       },
-      "/home/rogerio/projetos/store-api/config/routes.rb": {
+      "/home/rogerio/projetos/store-api-send-to-heroku/config/routes.rb": {
         "lines": [
           1,
           1,
@@ -303,7 +303,7 @@
           null
         ]
       },
-      "/home/rogerio/projetos/store-api/app/models/stock_item.rb": {
+      "/home/rogerio/projetos/store-api-send-to-heroku/app/models/stock_item.rb": {
         "lines": [
           1,
           1,
@@ -314,23 +314,14 @@
           null
         ]
       },
-      "/home/rogerio/projetos/store-api/app/models/application_record.rb": {
+      "/home/rogerio/projetos/store-api-send-to-heroku/app/models/application_record.rb": {
         "lines": [
           1,
           1,
           null
         ]
       },
-      "/home/rogerio/projetos/store-api/app/models/product.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          null
-        ]
-      },
-      "/home/rogerio/projetos/store-api/app/models/store.rb": {
+      "/home/rogerio/projetos/store-api-send-to-heroku/app/models/product.rb": {
         "lines": [
           1,
           1,
@@ -339,7 +330,16 @@
           null
         ]
       },
-      "/home/rogerio/projetos/store-api/app/controllers/application_controller.rb": {
+      "/home/rogerio/projetos/store-api-send-to-heroku/app/models/store.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/home/rogerio/projetos/store-api-send-to-heroku/app/controllers/application_controller.rb": {
         "lines": [
           1,
           1,
@@ -355,7 +355,7 @@
           null
         ]
       },
-      "/home/rogerio/projetos/store-api/app/controllers/v1/products_controller.rb": {
+      "/home/rogerio/projetos/store-api-send-to-heroku/app/controllers/v1/products_controller.rb": {
         "lines": [
           1,
           1,
@@ -397,7 +397,7 @@
           null
         ]
       },
-      "/home/rogerio/projetos/store-api/app/controllers/v1/stock_items_controller.rb": {
+      "/home/rogerio/projetos/store-api-send-to-heroku/app/controllers/v1/stock_items_controller.rb": {
         "lines": [
           1,
           1,
@@ -449,7 +449,7 @@
           null
         ]
       },
-      "/home/rogerio/projetos/store-api/app/controllers/v1/stores_controller.rb": {
+      "/home/rogerio/projetos/store-api-send-to-heroku/app/controllers/v1/stores_controller.rb": {
         "lines": [
           1,
           1,
@@ -492,6 +492,6 @@
         ]
       }
     },
-    "timestamp": 1590266885
+    "timestamp": 1590268559
   }
 }
