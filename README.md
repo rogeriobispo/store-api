@@ -1,24 +1,33 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Motivation
+  store api concurrent stock sample rspec racecondition
+    
+## Requiriments
+      * Ruby Version: 2.6.0
+      * Rails 6.0.2.2
+      * PostgreSQL 10.12
 
-Things you may want to cover:
+## Setup
+    * git clone git@github.com:rogeriobispo/cashback-service.git
+    * bundle install
+    * rails db:create
+    * rails db:migrate
+    * rails s 
+ 
+ ## Server up
+     * rails s
+ 
+ ## Database creation
+     * rails db:create
+ 
+ ## DataBase Initialization
+     * rails db:create
+     * rails db:migrate
+ 
+ ## How to run Test Suite
+     * rspec -fd
 
-* Ruby version
+ ## swagger Docs
+  https://roger-store-api.herokuapp.com/api-docs/index
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
