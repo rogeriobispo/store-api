@@ -11,7 +11,7 @@ class  V1::StockItemsController < ApplicationController
   end
 
   def update
-    stock_item = StockItemIncreseQuantity.execute(@stock_item.try(:id), stock_item_quantity)
+    stock_item = StockItemIncreaseQuantity.execute(@stock_item.try(:id), stock_item_quantity)
     render json: stock_item, status: :ok
   end
 

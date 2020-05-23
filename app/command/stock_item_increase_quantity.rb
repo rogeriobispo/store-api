@@ -1,4 +1,4 @@
-class StockItemIncreseQuantity
+class StockItemIncreaseQuantity
   def self.execute(stock_item_id, quantity)
     StockItem.transaction do
       stock_item = StockItem.find(stock_item_id).lock!
