@@ -24,7 +24,7 @@ RSpec.configure do |config|
       paths: {},
       servers: [
         {
-          url: 'http://{defaultHost}',
+          url: 'https://roger-store-api.herokuapp.com',
           variables: {
             defaultHost: {
               default: ENV['host']

@@ -15,7 +15,7 @@ development:
   port: 3000
 
 production:
-  host: tobedefined
+  host: https://roger-store-api.herokuapp.com/
 
 test:
   host: localhost:3000
