@@ -29,5 +29,5 @@
      * rspec -fd
 
  ## swagger Docs
-  https://roger-store-api.herokuapp.com/api-docs/index
+  https://roger-store-api.herokuapp.com/api-docs/index.html
 
