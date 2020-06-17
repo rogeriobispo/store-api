@@ -111,6 +111,9 @@ GEM
     byebug (11.1.3)
     concurrent-ruby (1.1.6)
     crass (1.0.6)
+    debase (0.2.4.1)
+      debase-ruby_core_source (>= 0.10.2)
+    debase-ruby_core_source (0.10.9)
     diff-lcs (1.3)
     docile (1.3.2)
     erubi (1.9.0)
@@ -200,6 +203,8 @@ GEM
     rswag-ui (2.3.1)
       actionpack (>= 3.1, < 7.0)
       railties (>= 3.1, < 7.0)
+    ruby-debug-ide (0.7.2)
+      rake (>= 0.8.1)
     simplecov (0.18.5)
       docile (~> 1.1)
       simplecov-html (~> 0.11)
@@ -230,6 +235,7 @@ PLATFORMS
 DEPENDENCIES
   bootsnap (>= 1.4.2)
   byebug
+  debase
   factory_bot_rails
   ffaker
   figaro
@@ -244,6 +250,7 @@ DEPENDENCIES
   rspec-rails!
   rspec-support!
   rswag
+  ruby-debug-ide
   simplecov
   spring
   spring-watcher-listen (~> 2.0.0)

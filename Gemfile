@@ -37,6 +37,8 @@ end
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'ruby-debug-ide'
+  gem 'debase'
   # is used to easily generate fake data: names, addresses, phone numbers, etc.
   gem 'ffaker'
   # is a fixtures replacement with a straightforward definition syntax,
