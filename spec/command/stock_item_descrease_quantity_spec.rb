@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe StockItemIncreseQuantity, type: :model do
+RSpec.describe StockItemIncreaseQuantity, type: :model do
   describe 'should decrease a stock item' do
     it 'when the value is correct(positive number)' do
       stock_item = create(:stock_item, quantity: 10)

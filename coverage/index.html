@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html xmlns='http://www.w3.org/1999/xhtml'>
   <head>
-    <title>Code coverage for Store-api-send-to-heroku</title>
+    <title>Code coverage for Store-api</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <script src='./assets/0.12.2/application.js' type='text/javascript'></script>
     <link href='./assets/0.12.2/application.css' media='screen, projection, print' rel='stylesheet' type='text/css' />
-    <link rel="shortcut icon" type="image/png" href="./assets/0.12.2/favicon_yellow.png" />
+    <link rel="shortcut icon" type="image/png" href="./assets/0.12.2/favicon_green.png" />
     <link rel="icon" type="image/png" href="./assets/0.12.2/favicon.png" />
   </head>
 
@@ -14,7 +14,7 @@
       <img src="./assets/0.12.2/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" class="hide">
-      <div class="timestamp">Generated <abbr class="timeago" title="2020-05-23T19:12:38-03:00">2020-05-23T19:12:38-03:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2020-06-17T11:51:44-03:00">2020-06-17T11:51:44-03:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -22,15 +22,15 @@
   <h2>
     <span class="group_name">All Files</span>
     (<span class="covered_percent">
-      <span class="yellow">
-  82.43%
+      <span class="green">
+  100.0%
 </span>
 
      </span>
      covered at
      <span class="covered_strength">
-       <span class="red">
-         0.85
+       <span class="green">
+         2.12
        </span>
     </span> hits/line
     )
@@ -39,15 +39,15 @@
   <a name="AllFiles"></a>
 
   <div>
-    <b>17</b> files in total.
+    <b>25</b> files in total.
   </div>
 
   <div class="t-line-summary">
-    <b>74</b> relevant lines,
-    <span class="green"><b>61</b> lines covered</span> and
-    <span class="red"><b>13</b> lines missed. </span>
-    (<span class="yellow">
-  82.43%
+    <b>160</b> relevant lines,
+    <span class="green"><b>160</b> lines covered</span> and
+    <span class="red"><b>0</b> lines missed. </span>
+    (<span class="green">
+  100.0%
 </span>
 )
   </div>
@@ -71,29 +71,73 @@
       <tbody>
         
           <tr class="t-file">
-            <td class="strong t-file__name"><a href="#c6837fe3b6a171eca8d9aaa1c70e9e4211ce43d0" class="src_link" title="app/command/stock_item_decrease_quantity.rb">app/command/stock_item_decrease_quantity.rb</a></td>
-            <td class="red strong cell--number t-file__coverage">22.22 %</td>
+            <td class="strong t-file__name"><a href="#685baeaf9995f7061383822821b4fcb4fb60a79d" class="src_link" title="app/command/stock_item_decrease_quantity.rb">app/command/stock_item_decrease_quantity.rb</a></td>
+            <td class="green strong cell--number t-file__coverage">100.00 %</td>
             <td class="cell--number">12</td>
             <td class="cell--number">9</td>
-            <td class="cell--number">2</td>
-            <td class="cell--number">7</td>
-            <td class="cell--number">0.22</td>
+            <td class="cell--number">9</td>
+            <td class="cell--number">0</td>
+            <td class="cell--number">6.67</td>
             
           </tr>
         
           <tr class="t-file">
-            <td class="strong t-file__name"><a href="#8962a36b4efdd40b3dacc24628e7f4bcb87c2ef2" class="src_link" title="app/command/stock_item_increase_quantity.rb">app/command/stock_item_increase_quantity.rb</a></td>
-            <td class="red strong cell--number t-file__coverage">25.00 %</td>
+            <td class="strong t-file__name"><a href="#7943ad1aeae26318aa126ccb4d18314ed1cfafdb" class="src_link" title="app/command/stock_item_increase_quantity.rb">app/command/stock_item_increase_quantity.rb</a></td>
+            <td class="green strong cell--number t-file__coverage">100.00 %</td>
             <td class="cell--number">11</td>
             <td class="cell--number">8</td>
-            <td class="cell--number">2</td>
-            <td class="cell--number">6</td>
-            <td class="cell--number">0.25</td>
+            <td class="cell--number">8</td>
+            <td class="cell--number">0</td>
+            <td class="cell--number">7.25</td>
             
           </tr>
         
           <tr class="t-file">
-            <td class="strong t-file__name"><a href="#9277aa71fe16bfbb4d1a9280ee697acafc30d714" class="src_link" title="app/custom_errors/validation_exception.rb">app/custom_errors/validation_exception.rb</a></td>
+            <td class="strong t-file__name"><a href="#4dbbe588ef858ec348d420df561aa14d817cb912" class="src_link" title="app/controllers/application_controller.rb">app/controllers/application_controller.rb</a></td>
+            <td class="green strong cell--number t-file__coverage">100.00 %</td>
+            <td class="cell--number">12</td>
+            <td class="cell--number">7</td>
+            <td class="cell--number">7</td>
+            <td class="cell--number">0</td>
+            <td class="cell--number">2.14</td>
+            
+          </tr>
+        
+          <tr class="t-file">
+            <td class="strong t-file__name"><a href="#e36180cd6196ffe670fea5d7f6feb029e79ec61b" class="src_link" title="app/controllers/v1/products_controller.rb">app/controllers/v1/products_controller.rb</a></td>
+            <td class="green strong cell--number t-file__coverage">100.00 %</td>
+            <td class="cell--number">37</td>
+            <td class="cell--number">20</td>
+            <td class="cell--number">20</td>
+            <td class="cell--number">0</td>
+            <td class="cell--number">1.45</td>
+            
+          </tr>
+        
+          <tr class="t-file">
+            <td class="strong t-file__name"><a href="#6aa503787453201014bc161ba2afffb69e8a50e3" class="src_link" title="app/controllers/v1/stock_items_controller.rb">app/controllers/v1/stock_items_controller.rb</a></td>
+            <td class="green strong cell--number t-file__coverage">100.00 %</td>
+            <td class="cell--number">51</td>
+            <td class="cell--number">24</td>
+            <td class="cell--number">24</td>
+            <td class="cell--number">0</td>
+            <td class="cell--number">3.04</td>
+            
+          </tr>
+        
+          <tr class="t-file">
+            <td class="strong t-file__name"><a href="#b9e930bde89061fea15a974defd45d2c9a41e7d4" class="src_link" title="app/controllers/v1/stores_controller.rb">app/controllers/v1/stores_controller.rb</a></td>
+            <td class="green strong cell--number t-file__coverage">100.00 %</td>
+            <td class="cell--number">36</td>
+            <td class="cell--number">20</td>
+            <td class="cell--number">20</td>
+            <td class="cell--number">0</td>
+            <td class="cell--number">1.45</td>
+            
+          </tr>
+        
+          <tr class="t-file">
+            <td class="strong t-file__name"><a href="#46be4446b5519d312d52b46d4f32e95135fbb47f" class="src_link" title="app/custom_errors/validation_exception.rb">app/custom_errors/validation_exception.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
             <td class="cell--number">1</td>
             <td class="cell--number">1</td>
@@ -104,7 +148,51 @@
           </tr>
         
           <tr class="t-file">
-            <td class="strong t-file__name"><a href="#b55d9ce6ddc75fbb38387aeb5f456190bfb9880d" class="src_link" title="config/application.rb">config/application.rb</a></td>
+            <td class="strong t-file__name"><a href="#fc3fafb9e4852c95beb7f8ff9028d26db4d68637" class="src_link" title="app/models/application_record.rb">app/models/application_record.rb</a></td>
+            <td class="green strong cell--number t-file__coverage">100.00 %</td>
+            <td class="cell--number">3</td>
+            <td class="cell--number">2</td>
+            <td class="cell--number">2</td>
+            <td class="cell--number">0</td>
+            <td class="cell--number">1.00</td>
+            
+          </tr>
+        
+          <tr class="t-file">
+            <td class="strong t-file__name"><a href="#fd4fa4fa4f530c652280f732fc31873f1a6ba78e" class="src_link" title="app/models/product.rb">app/models/product.rb</a></td>
+            <td class="green strong cell--number t-file__coverage">100.00 %</td>
+            <td class="cell--number">5</td>
+            <td class="cell--number">4</td>
+            <td class="cell--number">4</td>
+            <td class="cell--number">0</td>
+            <td class="cell--number">1.00</td>
+            
+          </tr>
+        
+          <tr class="t-file">
+            <td class="strong t-file__name"><a href="#041d36d9d8c3f791d9b47bd49ed93f98be8799cd" class="src_link" title="app/models/stock_item.rb">app/models/stock_item.rb</a></td>
+            <td class="green strong cell--number t-file__coverage">100.00 %</td>
+            <td class="cell--number">7</td>
+            <td class="cell--number">5</td>
+            <td class="cell--number">5</td>
+            <td class="cell--number">0</td>
+            <td class="cell--number">1.00</td>
+            
+          </tr>
+        
+          <tr class="t-file">
+            <td class="strong t-file__name"><a href="#a5556e15147956468520b84f5b51b8ec01089812" class="src_link" title="app/models/store.rb">app/models/store.rb</a></td>
+            <td class="green strong cell--number t-file__coverage">100.00 %</td>
+            <td class="cell--number">5</td>
+            <td class="cell--number">4</td>
+            <td class="cell--number">4</td>
+            <td class="cell--number">0</td>
+            <td class="cell--number">1.00</td>
+            
+          </tr>
+        
+          <tr class="t-file">
+            <td class="strong t-file__name"><a href="#f36a860176a8a9950cd31933fa528ce2ab7fa31a" class="src_link" title="config/application.rb">config/application.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
             <td class="cell--number">41</td>
             <td class="cell--number">20</td>
@@ -115,7 +203,7 @@
           </tr>
         
           <tr class="t-file">
-            <td class="strong t-file__name"><a href="#5a9bc82735fcdb44646a09b49ad52c93a6616a8e" class="src_link" title="config/boot.rb">config/boot.rb</a></td>
+            <td class="strong t-file__name"><a href="#9355072077d985deed3d48d30191bd75bbe7d90c" class="src_link" title="config/boot.rb">config/boot.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
             <td class="cell--number">4</td>
             <td class="cell--number">3</td>
@@ -126,7 +214,7 @@
           </tr>
         
           <tr class="t-file">
-            <td class="strong t-file__name"><a href="#1c04169087bedbf158d2539e36b2b7d3c5f1c443" class="src_link" title="config/environment.rb">config/environment.rb</a></td>
+            <td class="strong t-file__name"><a href="#0854a4de832d40f5448d5e4fb45fe7709aaa8957" class="src_link" title="config/environment.rb">config/environment.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
             <td class="cell--number">5</td>
             <td class="cell--number">2</td>
@@ -137,7 +225,7 @@
           </tr>
         
           <tr class="t-file">
-            <td class="strong t-file__name"><a href="#55e51eedc8e179c3f46899a8332cf58e0ea5e5f2" class="src_link" title="config/environments/test.rb">config/environments/test.rb</a></td>
+            <td class="strong t-file__name"><a href="#6017dce0f690548d8e6794860183e44230870c49" class="src_link" title="config/environments/test.rb">config/environments/test.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
             <td class="cell--number">49</td>
             <td class="cell--number">15</td>
@@ -148,7 +236,7 @@
           </tr>
         
           <tr class="t-file">
-            <td class="strong t-file__name"><a href="#277b3c98136cce04020584a65764ac5c77e1f0f2" class="src_link" title="config/initializers/application_controller_renderer.rb">config/initializers/application_controller_renderer.rb</a></td>
+            <td class="strong t-file__name"><a href="#e7f67372eff29e978070909598e909db7c00c456" class="src_link" title="config/initializers/application_controller_renderer.rb">config/initializers/application_controller_renderer.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
             <td class="cell--number">8</td>
             <td class="cell--number">0</td>
@@ -159,7 +247,7 @@
           </tr>
         
           <tr class="t-file">
-            <td class="strong t-file__name"><a href="#8896b91ff466079d1a06f6c94fc0593fc87e2b2e" class="src_link" title="config/initializers/backtrace_silencers.rb">config/initializers/backtrace_silencers.rb</a></td>
+            <td class="strong t-file__name"><a href="#ee709fbce3d61deaed6999012eecb10a8ee3a695" class="src_link" title="config/initializers/backtrace_silencers.rb">config/initializers/backtrace_silencers.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
             <td class="cell--number">7</td>
             <td class="cell--number">0</td>
@@ -170,7 +258,7 @@
           </tr>
         
           <tr class="t-file">
-            <td class="strong t-file__name"><a href="#5aa060b9b35d6e0d302f07cc26e2a3d32a877c04" class="src_link" title="config/initializers/cors.rb">config/initializers/cors.rb</a></td>
+            <td class="strong t-file__name"><a href="#3a1d2f5f51750f69f323bc8d421c96a7546ec611" class="src_link" title="config/initializers/cors.rb">config/initializers/cors.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
             <td class="cell--number">16</td>
             <td class="cell--number">0</td>
@@ -181,7 +269,7 @@
           </tr>
         
           <tr class="t-file">
-            <td class="strong t-file__name"><a href="#285bdbc7583de936cee9269dcfa70864e3306860" class="src_link" title="config/initializers/filter_parameter_logging.rb">config/initializers/filter_parameter_logging.rb</a></td>
+            <td class="strong t-file__name"><a href="#be09c16cf89a9dad72f2ab91341cba20f1f0bf49" class="src_link" title="config/initializers/filter_parameter_logging.rb">config/initializers/filter_parameter_logging.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
             <td class="cell--number">4</td>
             <td class="cell--number">1</td>
@@ -192,7 +280,7 @@
           </tr>
         
           <tr class="t-file">
-            <td class="strong t-file__name"><a href="#0f07aa20683f23911ccd5c3f89dc06627cb7ddc8" class="src_link" title="config/initializers/inflections.rb">config/initializers/inflections.rb</a></td>
+            <td class="strong t-file__name"><a href="#b7378a1b0e4161b8d12785bd01c2277661b6fc29" class="src_link" title="config/initializers/inflections.rb">config/initializers/inflections.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
             <td class="cell--number">16</td>
             <td class="cell--number">0</td>
@@ -203,7 +291,7 @@
           </tr>
         
           <tr class="t-file">
-            <td class="strong t-file__name"><a href="#ce51587b58df377d611bf4545ffa6a2313399a6b" class="src_link" title="config/initializers/mime_types.rb">config/initializers/mime_types.rb</a></td>
+            <td class="strong t-file__name"><a href="#ed8757ac7ce0b413f6d3b2c6d88f413de7cbb223" class="src_link" title="config/initializers/mime_types.rb">config/initializers/mime_types.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
             <td class="cell--number">4</td>
             <td class="cell--number">0</td>
@@ -214,7 +302,7 @@
           </tr>
         
           <tr class="t-file">
-            <td class="strong t-file__name"><a href="#4c002f99adfbed80c4438791efafbad1b0799e6a" class="src_link" title="config/initializers/rswag-ui.rb">config/initializers/rswag-ui.rb</a></td>
+            <td class="strong t-file__name"><a href="#ac1c3fa2cb4ce0e1c664fc36fecd3502a1159efa" class="src_link" title="config/initializers/rswag-ui.rb">config/initializers/rswag-ui.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
             <td class="cell--number">14</td>
             <td class="cell--number">2</td>
@@ -225,7 +313,7 @@
           </tr>
         
           <tr class="t-file">
-            <td class="strong t-file__name"><a href="#33b330bf7fb4184252e6abe5a639af70f1bac78c" class="src_link" title="config/initializers/rswag_api.rb">config/initializers/rswag_api.rb</a></td>
+            <td class="strong t-file__name"><a href="#139036f66c06be321e2d7d59138e31bf3e0f41f1" class="src_link" title="config/initializers/rswag_api.rb">config/initializers/rswag_api.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
             <td class="cell--number">14</td>
             <td class="cell--number">2</td>
@@ -236,18 +324,18 @@
           </tr>
         
           <tr class="t-file">
-            <td class="strong t-file__name"><a href="#121a494205c4c40e474e8c7ffa8a9185a40674ba" class="src_link" title="config/initializers/wrap_parameters.rb">config/initializers/wrap_parameters.rb</a></td>
+            <td class="strong t-file__name"><a href="#54f357b89882c5891cf2229a846c40f8487454a1" class="src_link" title="config/initializers/wrap_parameters.rb">config/initializers/wrap_parameters.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
             <td class="cell--number">14</td>
             <td class="cell--number">2</td>
             <td class="cell--number">2</td>
             <td class="cell--number">0</td>
-            <td class="cell--number">1.00</td>
+            <td class="cell--number">1.50</td>
             
           </tr>
         
           <tr class="t-file">
-            <td class="strong t-file__name"><a href="#69f925fc98af44b1e99510564fd9e9daa7ee2d87" class="src_link" title="config/routes.rb">config/routes.rb</a></td>
+            <td class="strong t-file__name"><a href="#bf0d51f69ab0f558818b98b67bea6f2fb8752cb1" class="src_link" title="config/routes.rb">config/routes.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
             <td class="cell--number">14</td>
             <td class="cell--number">9</td>
@@ -274,12 +362,12 @@
 
       <div class="source_files">
       
-        <div class="source_table" id="c6837fe3b6a171eca8d9aaa1c70e9e4211ce43d0">
+        <div class="source_table" id="685baeaf9995f7061383822821b4fcb4fb60a79d">
   <div class="header">
     <h3>app/command/stock_item_decrease_quantity.rb</h3>
     <h4>
-      <span class="red">
-  22.22%
+      <span class="green">
+  100.0%
 </span>
 
       lines covered
@@ -289,8 +377,8 @@
 
     <div class="t-line-summary">
       <b>9</b> relevant lines.
-      <span class="green"><b>2</b> lines covered</span> and
-      <span class="red"><b>7</b> lines missed.</span>
+      <span class="green"><b>9</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
     </div>
 
     
@@ -323,8 +411,8 @@
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="3">
-            
+          <li class="covered" data-hits="11" data-linenumber="3">
+            <span class="hits">11</span>
             
 
             
@@ -334,8 +422,8 @@
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="4">
-            
+          <li class="covered" data-hits="11" data-linenumber="4">
+            <span class="hits">11</span>
             
 
             
@@ -345,8 +433,8 @@
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="5">
-            
+          <li class="covered" data-hits="10" data-linenumber="5">
+            <span class="hits">10</span>
             
 
             
@@ -356,8 +444,8 @@
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="6">
-            
+          <li class="covered" data-hits="8" data-linenumber="6">
+            <span class="hits">8</span>
             
 
             
@@ -367,8 +455,8 @@
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="7">
-            
+          <li class="covered" data-hits="6" data-linenumber="7">
+            <span class="hits">6</span>
             
 
             
@@ -378,8 +466,8 @@
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="8">
-            
+          <li class="covered" data-hits="6" data-linenumber="8">
+            <span class="hits">6</span>
             
 
             
@@ -389,8 +477,8 @@
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="9">
-            
+          <li class="covered" data-hits="6" data-linenumber="9">
+            <span class="hits">6</span>
             
 
             
@@ -437,12 +525,12 @@
 </div>
 
       
-        <div class="source_table" id="8962a36b4efdd40b3dacc24628e7f4bcb87c2ef2">
+        <div class="source_table" id="7943ad1aeae26318aa126ccb4d18314ed1cfafdb">
   <div class="header">
     <h3>app/command/stock_item_increase_quantity.rb</h3>
     <h4>
-      <span class="red">
-  25.0%
+      <span class="green">
+  100.0%
 </span>
 
       lines covered
@@ -452,8 +540,8 @@
 
     <div class="t-line-summary">
       <b>8</b> relevant lines.
-      <span class="green"><b>2</b> lines covered</span> and
-      <span class="red"><b>6</b> lines missed.</span>
+      <span class="green"><b>8</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
     </div>
 
     
@@ -486,8 +574,8 @@
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="3">
-            
+          <li class="covered" data-hits="11" data-linenumber="3">
+            <span class="hits">11</span>
             
 
             
@@ -497,8 +585,8 @@
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="4">
-            
+          <li class="covered" data-hits="11" data-linenumber="4">
+            <span class="hits">11</span>
             
 
             
@@ -508,8 +596,8 @@
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="5">
-            
+          <li class="covered" data-hits="10" data-linenumber="5">
+            <span class="hits">10</span>
             
 
             
@@ -519,8 +607,8 @@
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="6">
-            
+          <li class="covered" data-hits="8" data-linenumber="6">
+            <span class="hits">8</span>
             
 
             
@@ -530,19 +618,19 @@
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="7">
-            
-            
-
+          <li class="covered" data-hits="8" data-linenumber="7">
+            <span class="hits">8</span>
             
 
-            <code class="ruby">      yield  if block_given?</code>
+            
+
+            <code class="ruby">      yield if block_given?</code>
           </li>
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="8">
-            
+          <li class="covered" data-hits="8" data-linenumber="8">
+            <span class="hits">8</span>
             
 
             
@@ -589,7 +677,1627 @@
 </div>
 
       
-        <div class="source_table" id="9277aa71fe16bfbb4d1a9280ee697acafc30d714">
+        <div class="source_table" id="4dbbe588ef858ec348d420df561aa14d817cb912">
+  <div class="header">
+    <h3>app/controllers/application_controller.rb</h3>
+    <h4>
+      <span class="green">
+  100.0%
+</span>
+
+      lines covered
+    </h4>
+
+    
+
+    <div class="t-line-summary">
+      <b>7</b> relevant lines.
+      <span class="green"><b>7</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+
+    
+
+  </div>
+
+  <pre>
+    <ol>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="1">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">class ApplicationController &lt; ActionController::API</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="2">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  rescue_from ActiveRecord::RecordNotFound, with: :record_not_found</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="3">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  rescue_from ValidationException, with: :validation</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="4">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="5">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  def record_not_found(error)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="8" data-linenumber="6">
+            <span class="hits">8</span>
+            
+
+            
+
+            <code class="ruby">    render json: { errors: [error] }, status: :not_found</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="7">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="8">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="9">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  def validation(error)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="2" data-linenumber="10">
+            <span class="hits">2</span>
+            
+
+            
+
+            <code class="ruby">    render json: { errors: [error] }, status: :unprocessable_entity</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="11">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="12">
+            
+            
+
+            
+
+            <code class="ruby">end</code>
+          </li>
+        </div>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="e36180cd6196ffe670fea5d7f6feb029e79ec61b">
+  <div class="header">
+    <h3>app/controllers/v1/products_controller.rb</h3>
+    <h4>
+      <span class="green">
+  100.0%
+</span>
+
+      lines covered
+    </h4>
+
+    
+
+    <div class="t-line-summary">
+      <b>20</b> relevant lines.
+      <span class="green"><b>20</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+
+    
+
+  </div>
+
+  <pre>
+    <ol>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="1">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">class V1::ProductsController &lt; ApplicationController</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="2">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  before_action :set_product, only: [:show, :update, :destroy]</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="3">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  def create</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="2" data-linenumber="4">
+            <span class="hits">2</span>
+            
+
+            
+
+            <code class="ruby">    product = Product.new(product_params)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="2" data-linenumber="5">
+            <span class="hits">2</span>
+            
+
+            
+
+            <code class="ruby">    if product.save</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="6">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      render json: product, status: :ok</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="7">
+            
+            
+
+            
+
+            <code class="ruby">    else</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="8">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      render json: product.errors, status: :unprocessable_entity</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="9">
+            
+            
+
+            
+
+            <code class="ruby">    end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="10">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="11">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="12">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  def show</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="13">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    render json: @product, status: :ok</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="14">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="15">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="16">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  def update</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="17">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    @product.update(product_params)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="18">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    render json: @product.reload, status: :ok</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="19">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="20">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="21">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  def destroy</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="22">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    @product.destroy</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="23">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    render status: :no_content</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="24">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="25">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="26">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  private</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="27">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="28">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  def product_params</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="3" data-linenumber="29">
+            <span class="hits">3</span>
+            
+
+            
+
+            <code class="ruby">    params.permit(:name,</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="30">
+            
+            
+
+            
+
+            <code class="ruby">                  :manufactory,</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="31">
+            
+            
+
+            
+
+            <code class="ruby">                  :cost_price)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="32">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="33">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="34">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  def set_product</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="6" data-linenumber="35">
+            <span class="hits">6</span>
+            
+
+            
+
+            <code class="ruby">    @product = Product.find(params[:id])</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="36">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="37">
+            
+            
+
+            
+
+            <code class="ruby">end</code>
+          </li>
+        </div>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="6aa503787453201014bc161ba2afffb69e8a50e3">
+  <div class="header">
+    <h3>app/controllers/v1/stock_items_controller.rb</h3>
+    <h4>
+      <span class="green">
+  100.0%
+</span>
+
+      lines covered
+    </h4>
+
+    
+
+    <div class="t-line-summary">
+      <b>24</b> relevant lines.
+      <span class="green"><b>24</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+
+    
+
+  </div>
+
+  <pre>
+    <ol>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="1">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">class V1::StockItemsController &lt; ApplicationController</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="2">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  before_action :set_stock_item, only: [:update, :destroy]</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="3">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="4">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  def create</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="3" data-linenumber="5">
+            <span class="hits">3</span>
+            
+
+            
+
+            <code class="ruby">    stock_item = StockItem.new(stock_item_params)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="3" data-linenumber="6">
+            <span class="hits">3</span>
+            
+
+            
+
+            <code class="ruby">    if stock_item.save</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="7">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      render json: stock_item, status: :ok</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="8">
+            
+            
+
+            
+
+            <code class="ruby">    else</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="2" data-linenumber="9">
+            <span class="hits">2</span>
+            
+
+            
+
+            <code class="ruby">      render json: stock_item.errors, status: :unprocessable_entity</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="10">
+            
+            
+
+            
+
+            <code class="ruby">    end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="11">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="12">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="13">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  def update</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="3" data-linenumber="14">
+            <span class="hits">3</span>
+            
+
+            
+
+            <code class="ruby">    stock_item = StockItemIncreaseQuantity</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="15">
+            
+            
+
+            
+
+            <code class="ruby">                 .execute(@stock_item.try(:id), stock_item_quantity)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="16">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    render json: stock_item, status: :ok</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="17">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="18">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="19">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  def destroy</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="3" data-linenumber="20">
+            <span class="hits">3</span>
+            
+
+            
+
+            <code class="ruby">    stock_item = StockItemDecreaseQuantity</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="21">
+            
+            
+
+            
+
+            <code class="ruby">                 .execute(@stock_item.try(:id), stock_item_quantity)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="22">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    render json: stock_item, status: :ok</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="23">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="24">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="25">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  private</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="26">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="27">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  def stock_item_params</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="21" data-linenumber="28">
+            <span class="hits">21</span>
+            
+
+            
+
+            <code class="ruby">    params.permit(:product_id,</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="29">
+            
+            
+
+            
+
+            <code class="ruby">                  :store_id,</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="30">
+            
+            
+
+            
+
+            <code class="ruby">                  :quantity)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="31">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="32">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="33">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  def set_stock_item</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="6" data-linenumber="34">
+            <span class="hits">6</span>
+            
+
+            
+
+            <code class="ruby">    @stock_item = StockItem.where(</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="35">
+            
+            
+
+            
+
+            <code class="ruby">      product_id: product_id,</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="36">
+            
+            
+
+            
+
+            <code class="ruby">      store_id: store_id</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="37">
+            
+            
+
+            
+
+            <code class="ruby">    ).last</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="38">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="39">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="40">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  def product_id</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="6" data-linenumber="41">
+            <span class="hits">6</span>
+            
+
+            
+
+            <code class="ruby">    stock_item_params[&#39;product_id&#39;]</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="42">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="43">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="44">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  def store_id</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="6" data-linenumber="45">
+            <span class="hits">6</span>
+            
+
+            
+
+            <code class="ruby">    stock_item_params[&#39;store_id&#39;]</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="46">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="47">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="48">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  def stock_item_quantity</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="6" data-linenumber="49">
+            <span class="hits">6</span>
+            
+
+            
+
+            <code class="ruby">    stock_item_params[:quantity]</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="50">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="51">
+            
+            
+
+            
+
+            <code class="ruby">end</code>
+          </li>
+        </div>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="b9e930bde89061fea15a974defd45d2c9a41e7d4">
+  <div class="header">
+    <h3>app/controllers/v1/stores_controller.rb</h3>
+    <h4>
+      <span class="green">
+  100.0%
+</span>
+
+      lines covered
+    </h4>
+
+    
+
+    <div class="t-line-summary">
+      <b>20</b> relevant lines.
+      <span class="green"><b>20</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+
+    
+
+  </div>
+
+  <pre>
+    <ol>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="1">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">class V1::StoresController &lt; ApplicationController</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="2">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  before_action :set_store, only: [:show, :update, :destroy]</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="3">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  def create</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="2" data-linenumber="4">
+            <span class="hits">2</span>
+            
+
+            
+
+            <code class="ruby">    store = Store.new(store_params)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="2" data-linenumber="5">
+            <span class="hits">2</span>
+            
+
+            
+
+            <code class="ruby">    if store.save</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="6">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      render json: store, status: :ok</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="7">
+            
+            
+
+            
+
+            <code class="ruby">    else</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="8">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      render json: store.errors, status: :unprocessable_entity</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="9">
+            
+            
+
+            
+
+            <code class="ruby">    end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="10">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="11">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="12">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  def show</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="13">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    render json: @store, status: :ok</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="14">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="15">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="16">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  def update</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="17">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    @store.update(store_params)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="18">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    render json: @store.reload, status: :ok</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="19">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="20">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="21">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  def destroy</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="22">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    @store.destroy</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="23">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    render status: :no_content</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="24">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="25">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="26">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  private</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="27">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="28">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  def store_params</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="3" data-linenumber="29">
+            <span class="hits">3</span>
+            
+
+            
+
+            <code class="ruby">    params.permit(:name,</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="30">
+            
+            
+
+            
+
+            <code class="ruby">                  :address)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="31">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="32">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="33">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  def set_store</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="6" data-linenumber="34">
+            <span class="hits">6</span>
+            
+
+            
+
+            <code class="ruby">    @store = Store.find(params[:id])</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="35">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="36">
+            
+            
+
+            
+
+            <code class="ruby">end</code>
+          </li>
+        </div>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="46be4446b5519d312d52b46d4f32e95135fbb47f">
   <div class="header">
     <h3>app/custom_errors/validation_exception.rb</h3>
     <h4>
@@ -622,7 +2330,7 @@
 
             
 
-            <code class="ruby">class ValidationException &lt; Exception; end</code>
+            <code class="ruby">class ValidationException &lt; RuntimeError; end</code>
           </li>
         </div>
       
@@ -631,7 +2339,351 @@
 </div>
 
       
-        <div class="source_table" id="b55d9ce6ddc75fbb38387aeb5f456190bfb9880d">
+        <div class="source_table" id="fc3fafb9e4852c95beb7f8ff9028d26db4d68637">
+  <div class="header">
+    <h3>app/models/application_record.rb</h3>
+    <h4>
+      <span class="green">
+  100.0%
+</span>
+
+      lines covered
+    </h4>
+
+    
+
+    <div class="t-line-summary">
+      <b>2</b> relevant lines.
+      <span class="green"><b>2</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+
+    
+
+  </div>
+
+  <pre>
+    <ol>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="1">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">class ApplicationRecord &lt; ActiveRecord::Base</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="2">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  self.abstract_class = true</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="3">
+            
+            
+
+            
+
+            <code class="ruby">end</code>
+          </li>
+        </div>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="fd4fa4fa4f530c652280f732fc31873f1a6ba78e">
+  <div class="header">
+    <h3>app/models/product.rb</h3>
+    <h4>
+      <span class="green">
+  100.0%
+</span>
+
+      lines covered
+    </h4>
+
+    
+
+    <div class="t-line-summary">
+      <b>4</b> relevant lines.
+      <span class="green"><b>4</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+
+    
+
+  </div>
+
+  <pre>
+    <ol>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="1">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">class Product &lt; ApplicationRecord</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="2">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  validates :name, :manufactory, :cost_price, presence: true</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="3">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  validates :name, uniqueness: true</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="4">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  acts_as_paranoid</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="5">
+            
+            
+
+            
+
+            <code class="ruby">end</code>
+          </li>
+        </div>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="041d36d9d8c3f791d9b47bd49ed93f98be8799cd">
+  <div class="header">
+    <h3>app/models/stock_item.rb</h3>
+    <h4>
+      <span class="green">
+  100.0%
+</span>
+
+      lines covered
+    </h4>
+
+    
+
+    <div class="t-line-summary">
+      <b>5</b> relevant lines.
+      <span class="green"><b>5</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+
+    
+
+  </div>
+
+  <pre>
+    <ol>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="1">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">class StockItem &lt; ApplicationRecord</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="2">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  belongs_to :product</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="3">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  belongs_to :store</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="4">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="5">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  validates :quantity, presence: true</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="6">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  validates :product, uniqueness: { scope: [:product_id, :store_id] }</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="7">
+            
+            
+
+            
+
+            <code class="ruby">end</code>
+          </li>
+        </div>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="a5556e15147956468520b84f5b51b8ec01089812">
+  <div class="header">
+    <h3>app/models/store.rb</h3>
+    <h4>
+      <span class="green">
+  100.0%
+</span>
+
+      lines covered
+    </h4>
+
+    
+
+    <div class="t-line-summary">
+      <b>4</b> relevant lines.
+      <span class="green"><b>4</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+
+    
+
+  </div>
+
+  <pre>
+    <ol>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="1">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">class Store &lt; ApplicationRecord</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="2">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  validates :name, :address, presence: true</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="3">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  validates :name, uniqueness: true</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="4">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  acts_as_paranoid</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="5">
+            
+            
+
+            
+
+            <code class="ruby">end</code>
+          </li>
+        </div>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="f36a860176a8a9950cd31933fa528ce2ab7fa31a">
   <div class="header">
     <h3>config/application.rb</h3>
     <h4>
@@ -1113,7 +3165,7 @@
 </div>
 
       
-        <div class="source_table" id="5a9bc82735fcdb44646a09b49ad52c93a6616a8e">
+        <div class="source_table" id="9355072077d985deed3d48d30191bd75bbe7d90c">
   <div class="header">
     <h3>config/boot.rb</h3>
     <h4>
@@ -1188,7 +3240,7 @@
 </div>
 
       
-        <div class="source_table" id="1c04169087bedbf158d2539e36b2b7d3c5f1c443">
+        <div class="source_table" id="0854a4de832d40f5448d5e4fb45fe7709aaa8957">
   <div class="header">
     <h3>config/environment.rb</h3>
     <h4>
@@ -1274,7 +3326,7 @@
 </div>
 
       
-        <div class="source_table" id="55e51eedc8e179c3f46899a8332cf58e0ea5e5f2">
+        <div class="source_table" id="6017dce0f690548d8e6794860183e44230870c49">
   <div class="header">
     <h3>config/environments/test.rb</h3>
     <h4>
@@ -1844,7 +3896,7 @@
 </div>
 
       
-        <div class="source_table" id="277b3c98136cce04020584a65764ac5c77e1f0f2">
+        <div class="source_table" id="e7f67372eff29e978070909598e909db7c00c456">
   <div class="header">
     <h3>config/initializers/application_controller_renderer.rb</h3>
     <h4>
@@ -1963,7 +4015,7 @@
 </div>
 
       
-        <div class="source_table" id="8896b91ff466079d1a06f6c94fc0593fc87e2b2e">
+        <div class="source_table" id="ee709fbce3d61deaed6999012eecb10a8ee3a695">
   <div class="header">
     <h3>config/initializers/backtrace_silencers.rb</h3>
     <h4>
@@ -2071,7 +4123,7 @@
 </div>
 
       
-        <div class="source_table" id="5aa060b9b35d6e0d302f07cc26e2a3d32a877c04">
+        <div class="source_table" id="3a1d2f5f51750f69f323bc8d421c96a7546ec611">
   <div class="header">
     <h3>config/initializers/cors.rb</h3>
     <h4>
@@ -2278,7 +4330,7 @@
 </div>
 
       
-        <div class="source_table" id="285bdbc7583de936cee9269dcfa70864e3306860">
+        <div class="source_table" id="be09c16cf89a9dad72f2ab91341cba20f1f0bf49">
   <div class="header">
     <h3>config/initializers/filter_parameter_logging.rb</h3>
     <h4>
@@ -2353,7 +4405,7 @@
 </div>
 
       
-        <div class="source_table" id="0f07aa20683f23911ccd5c3f89dc06627cb7ddc8">
+        <div class="source_table" id="b7378a1b0e4161b8d12785bd01c2277661b6fc29">
   <div class="header">
     <h3>config/initializers/inflections.rb</h3>
     <h4>
@@ -2560,7 +4612,7 @@
 </div>
 
       
-        <div class="source_table" id="ce51587b58df377d611bf4545ffa6a2313399a6b">
+        <div class="source_table" id="ed8757ac7ce0b413f6d3b2c6d88f413de7cbb223">
   <div class="header">
     <h3>config/initializers/mime_types.rb</h3>
     <h4>
@@ -2635,7 +4687,7 @@
 </div>
 
       
-        <div class="source_table" id="4c002f99adfbed80c4438791efafbad1b0799e6a">
+        <div class="source_table" id="ac1c3fa2cb4ce0e1c664fc36fecd3502a1159efa">
   <div class="header">
     <h3>config/initializers/rswag-ui.rb</h3>
     <h4>
@@ -2820,7 +4872,7 @@
 </div>
 
       
-        <div class="source_table" id="33b330bf7fb4184252e6abe5a639af70f1bac78c">
+        <div class="source_table" id="139036f66c06be321e2d7d59138e31bf3e0f41f1">
   <div class="header">
     <h3>config/initializers/rswag_api.rb</h3>
     <h4>
@@ -3005,7 +5057,7 @@
 </div>
 
       
-        <div class="source_table" id="121a494205c4c40e474e8c7ffa8a9185a40674ba">
+        <div class="source_table" id="54f357b89882c5891cf2229a846c40f8487454a1">
   <div class="header">
     <h3>config/initializers/wrap_parameters.rb</h3>
     <h4>
@@ -3109,8 +5161,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="8">
-            <span class="hits">1</span>
+          <li class="covered" data-hits="2" data-linenumber="8">
+            <span class="hits">2</span>
             
 
             
@@ -3190,7 +5242,7 @@
 </div>
 
       
-        <div class="source_table" id="69f925fc98af44b1e99510564fd9e9daa7ee2d87">
+        <div class="source_table" id="bf0d51f69ab0f558818b98b67bea6f2fb8752cb1">
   <div class="header">
     <h3>config/routes.rb</h3>
     <h4>
